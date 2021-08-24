@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    /* z-index: 999; */
+    padding: 20px 50px;
+    font-family: 'Ubuntu', sans-serif;
+    /* transition: all 0.3s ease; */
+    background-color:gray;
+}
+/* .navbar.sticky{
+    padding: 15px 0;
+    background: crimson;
+} */
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    margin-left: 20px;
+    border: 3px solid black;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+}
+.navbar .logo a:hover{
+    margin-left: 20px;
+    border: 3px solid white;
+    border-radius: 6px;
+    color:black;
+    font-size: 50px;
+    font-weight: 300;
+    
+}
+
+/* .navbar.sticky .logo a span{
+    color: #fff;
+} */
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color: #fff;
+    /* border: 1px solid rgb(233, 153, 146); */
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 50px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color:rgb(245, 89, 75);
+    /* border: 1px solid rgb(233, 153, 146); */
+    /* padding: 10px; */
+}
+/* .navbar.sticky .menu li a:hover{
+    color: #fff;
+} */
