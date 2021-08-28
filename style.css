@@ -458,7 +458,7 @@ h5{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color:crimson;
+    color: rgb(101, 132, 235);
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -588,6 +588,9 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
         font-size: 10px;
+    }
+    .contact .contact-content .links li a {
+        font-size: 30px;
     }
 }
 
